@@ -1,0 +1,69 @@
+[
+  {
+    "id_item": "hot-001",
+    "nome": "Hotel Cumbres Lastarria",
+    "categoria": "hospedagem",
+    "bairro": "Lastarria",
+    "perfil": [
+      "casal"
+    ],
+    "faixa_preco": "alto",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 2500.0,
+    "preco_clp_base": 425000,
+    "parceiro_cupom": false,
+    "descricao": "Hotel boutique em Lastarria, pacote de 4 diárias para casal.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "hot-002",
+    "nome": "Luciano K Hotel — Parceiro Agência com Cupom",
+    "categoria": "hospedagem",
+    "bairro": "Lastarria",
+    "perfil": [
+      "casal",
+      "individual"
+    ],
+    "faixa_preco": "medio",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 1950.0,
+    "preco_clp_base": 331500,
+    "parceiro_cupom": true,
+    "descricao": "Hotel parceiro da agência em Lastarria com cupom, pacote de 4 diárias.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "hot-003",
+    "nome": "Novotel Santiago Providencia",
+    "categoria": "hospedagem",
+    "bairro": "Providencia",
+    "perfil": [
+      "familia"
+    ],
+    "faixa_preco": "medio",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 2100.0,
+    "preco_clp_base": 357000,
+    "parceiro_cupom": false,
+    "descricao": "Piscina kids e quartos amplos, pacote de 4 diárias.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "hot-004",
+    "nome": "ibis Santiago Providencia",
+    "categoria": "hospedagem",
+    "bairro": "Providencia",
+    "perfil": [
+      "casal",
+      "familia",
+      "individual"
+    ],
+    "faixa_preco": "baixo",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 1350.0,
+    "preco_clp_base": 229500,
+    "parceiro_cupom": false,
+    "descricao": "Opção econômica em Providencia, pacote de 4 diárias.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  }
+]

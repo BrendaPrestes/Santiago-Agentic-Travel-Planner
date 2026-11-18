@@ -1,0 +1,106 @@
+[
+  {
+    "id_item": "pas-001",
+    "nome": "Viña Santa Rita — Tour & Degustação",
+    "categoria": "passeio",
+    "bairro": "Vale do Maipo",
+    "perfil": [
+      "casal",
+      "individual"
+    ],
+    "faixa_preco": "alto",
+    "clima": "ar_livre_sol",
+    "preco_brl": 650.0,
+    "preco_clp_base": 110500,
+    "parceiro_cupom": false,
+    "descricao": "Tour e degustação de vinhos tradicionais no Vale do Maipo.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "pas-002",
+    "nome": "Viña Concha y Toro — Tour Marques",
+    "categoria": "passeio",
+    "bairro": "Pirque",
+    "perfil": [
+      "casal",
+      "individual"
+    ],
+    "faixa_preco": "alto",
+    "clima": "ar_livre_sol",
+    "preco_brl": 620.0,
+    "preco_clp_base": 105400,
+    "parceiro_cupom": false,
+    "descricao": "Tour Marques com degustação guiada em Pirque.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "pas-003",
+    "nome": "Teleférico de Santiago & Cerro San Cristóbal",
+    "categoria": "passeio",
+    "bairro": "Providencia",
+    "perfil": [
+      "casal",
+      "familia",
+      "individual"
+    ],
+    "faixa_preco": "baixo",
+    "clima": "ar_livre_sol",
+    "preco_brl": 250.0,
+    "preco_clp_base": 42500,
+    "parceiro_cupom": false,
+    "descricao": "Teleférico e vista panorâmica de Santiago.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "pas-004",
+    "nome": "Museu Nacional de Bellas Artes & Museu Precolombino",
+    "categoria": "passeio",
+    "bairro": "Centro/Lastarria",
+    "perfil": [
+      "casal",
+      "familia",
+      "individual"
+    ],
+    "faixa_preco": "baixo",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 200.0,
+    "preco_clp_base": 34000,
+    "parceiro_cupom": false,
+    "descricao": "Dois museus com transporte incluso, ideal para dias nublados ou chuvosos.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "pas-005",
+    "nome": "Parque Bicentenário & Zoológico Metropolitano",
+    "categoria": "passeio",
+    "bairro": "Vitacura/Bellavista",
+    "perfil": [
+      "familia"
+    ],
+    "faixa_preco": "baixo",
+    "clima": "ar_livre_sol",
+    "preco_brl": 180.0,
+    "preco_clp_base": 30600,
+    "parceiro_cupom": false,
+    "descricao": "Passeio ao ar livre para famílias.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "pas-006",
+    "nome": "Valle Nevado & Farellones — Dia na Neve",
+    "categoria": "passeio",
+    "bairro": "Cordilheira dos Andes",
+    "perfil": [
+      "casal",
+      "familia",
+      "individual"
+    ],
+    "faixa_preco": "alto",
+    "clima": "neve_inverno",
+    "preco_brl": 850.0,
+    "preco_clp_base": 144500,
+    "parceiro_cupom": false,
+    "descricao": "Dia na neve nos Andes (temporada de inverno).",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  }
+]

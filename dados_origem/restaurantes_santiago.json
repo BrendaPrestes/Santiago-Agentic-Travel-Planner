@@ -1,0 +1,53 @@
+[
+  {
+    "id_item": "res-001",
+    "nome": "Bocanariz Wine Bar + Pizzeria Tiramisú + Traslados Casal (Pacote 4 dias)",
+    "categoria": "restaurante",
+    "bairro": "Lastarria / Las Condes",
+    "perfil": [
+      "casal"
+    ],
+    "faixa_preco": "medio",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 1600.0,
+    "preco_clp_base": 272000,
+    "parceiro_cupom": false,
+    "descricao": "Gastronomia e traslados para casal durante 4 dias.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "res-002",
+    "nome": "Giratorio Restaurant + Mestizo Parque Bicentenário + Traslados Família (Pacote 4 dias)",
+    "categoria": "restaurante",
+    "bairro": "Providencia / Vitacura",
+    "perfil": [
+      "familia",
+      "casal"
+    ],
+    "faixa_preco": "alto",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 1750.0,
+    "preco_clp_base": 297500,
+    "parceiro_cupom": false,
+    "descricao": "Gastronomia e traslados para família durante 4 dias.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  },
+  {
+    "id_item": "res-003",
+    "nome": "Roteiro Gastronômico Econômico — Patio Bellavista & Mercados + Metrô (4 dias)",
+    "categoria": "restaurante",
+    "bairro": "Bellavista",
+    "perfil": [
+      "casal",
+      "familia",
+      "individual"
+    ],
+    "faixa_preco": "baixo",
+    "clima": "coberto_qualquer_clima",
+    "preco_brl": 950.0,
+    "preco_clp_base": 161500,
+    "parceiro_cupom": false,
+    "descricao": "Roteiro econômico com mercados e metrô, 4 dias, ideal também para viajante individual.",
+    "ultima_atualizacao": "2026-11-17 22:48"
+  }
+]
