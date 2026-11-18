@@ -16,7 +16,7 @@ Um LLM puro usado no atendimento de uma agência de viagens apresenta três limi
 
 ---
 
-## 🏗️ Arquitetura do Grafo (`LangGraph`)
+## 🏗️ Arquitetura do Grafo (`Agentic RAG + Re-Ranking + LangGraph`)
 
 ```mermaid
 flowchart TD
@@ -24,15 +24,15 @@ flowchart TD
     B -- "Bloqueado" --> I["9. guardrail_saida"]
     B -- "OK" --> C["2. decision (Roteador + BufferWindowMemory K=3)"]
     C -- "roteiro_completo / usar_clima" --> D["3. usar_clima (Open-Meteo API + DuckDuckGo)"]
-    C -- "gerar (dúvida de item)" --> E["4. retrieve (ChromaDB + Filtro Perfil)"]
+    C -- "gerar (dúvida de item)" --> E["4. retrieve — RAG (Busca Vetorial ChromaDB + Embeddings BAAI/bge-base-en)"]
     D --> E
     E -- "roteiro_completo" --> F["5. calcular_orcamento (Soma Determinística)"]
-    E -- "dúvida de clima/item" --> G["6. generate_multiple (LM Studio)"]
-    F -- "total > teto (Ajustar Roteiro)" --> F2["incrementa_tentativa (Troca Hotel Cupom / Econômico)"]
+    E -- "dúvida de clima/item" --> G["6. generate_multiple — RAG Generation (LM Studio)"]
+    F -- "total > teto (Ajustar Roteiro)" --> F2["incrementa_tentativa (Loop de Autocorreção: Troca Hotel Cupom / Econômico)"]
     F2 --> E
     F -- "Aprovado (total <= teto)" --> G
-    G --> H["7. evaluate_similarity (Cosine Similarity)"]
-    H --> H2["8. rank_responses (Confidence Score)"]
+    G --> H["7. evaluate_similarity — Re-Ranking Passo 1 (Cosine Similarity vs. RAG)"]
+    H --> H2["8. rank_responses — Re-Ranking Passo 2 (Maior Confidence Score)"]
     H2 --> I
     I --> J["Resposta Final + Telemetria no Streamlit"]
 ```
